@@ -13,10 +13,10 @@
 #  type        = set(string)
 #}
 
-variable "mount_default_lease_ttl_seconds" {
-  description = "(Optional) Default lease duration for tokens and secrets in seconds."
-  type        = number
-}
+#variable "mount_default_lease_ttl_seconds" {
+#  description = "(Optional) Default lease duration for tokens and secrets in seconds."
+#  type        = number
+#}
 
 variable "mount_description" {
   description = "(Optional) Human-friendly description of the mount."
@@ -33,10 +33,10 @@ variable "mount_description" {
 #  type        = bool
 #}
 
-variable "mount_max_lease_ttl_seconds" {
-  description = "(Optional) Maximum possible lease duration for tokens and secrets in seconds."
-  type        = number
-}
+#variable "mount_max_lease_ttl_seconds" {
+#  description = "(Optional) Maximum possible lease duration for tokens and secrets in seconds."
+#  type        = number
+#}
 
 #variable "mount_namespace" {
 #  description = "(Optional) The namespace to provision the resource in. The value should not contain leading or trailing forward slashes. The namespace is always relative to the provider's configured namespace. Available only for Vault Enterprise."
